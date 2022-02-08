@@ -17,8 +17,7 @@ Set sensitive content settings (for viewing or hiding NSFW content)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sensitive\_enabled|[Bool](/API_docs/types/Bool.html) | Enable NSFW content | Optional|
-
+http://127.0.0.1:9503/api/account.setContentSettings/?data[sensitive_enabled]=true
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
